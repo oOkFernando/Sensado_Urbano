@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/page" >
+
+    <ImageButton
+        android:id="@+id/imgbtnCancelar"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignBottom="@+id/imgbtnGuardar"
+        android:layout_alignLeft="@+id/imgTakePhoto"
+        android:layout_alignTop="@+id/imgbtnGuardar"
+        android:src="@drawable/abc_ic_ab_back_holo_dark" />
+
+    <ImageButton
+        android:id="@+id/imgTakePhoto"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/take"
+        android:scaleType="fitXY"
+        android:src="@drawable/lote" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imgTakePhoto"
+        android:layout_alignRight="@+id/imgbtnGuardar"
+        android:layout_below="@+id/editText1"
+        android:layout_marginTop="18dp"
+        android:background="@drawable/edittext_selector"
+        android:ems="10"
+        android:hint="Cruzamientos"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText2"
+        android:layout_alignRight="@+id/imgbtnGuardar"
+        android:layout_below="@+id/editText2"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/edittext_selector"
+        android:ems="10"
+        android:hint="Coordenadas"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText3"
+        android:layout_alignRight="@+id/imgbtnGuardar"
+        android:layout_below="@+id/editText3"
+        android:layout_marginBottom="17dp"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/edittext_selector"
+        android:ems="10"
+        android:hint="Algo"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imgTakePhoto"
+        android:layout_alignRight="@+id/editText2"
+        android:background="@drawable/edittext_selector"
+        android:ems="10"
+        android:hint="Calle"
+        android:inputType="textPersonName" />
+
+    <ImageButton
+        android:id="@+id/imgbtnGuardar"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="14dp"
+        android:layout_marginRight="15dp"
+        android:onClick="Guardar"
+        android:src="@drawable/abc_ic_cab_done_holo_dark" />
+
+    <Button
+        android:id="@+id/btnMostrarChecks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imgbtnCancelar"
+        android:layout_centerHorizontal="true"
+        android:text="Adicional" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/editText1"
+        android:layout_alignTop="@+id/imgTakePhoto"
+        android:background="@drawable/edittext_selector"
+        android:ems="10"
+        android:hint="Colonia"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+</RelativeLayout>

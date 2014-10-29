@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sensado Urbano</string>
+    <string name="re_dat">Datos del Predio</string>
+    <string name="loc_pre">Localicacion del Predio</string>
+    <string name="action_settings">Menu</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+
+</resources>
